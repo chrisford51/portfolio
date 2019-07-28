@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 // import Languages from './languages';
 import TextLoop from 'react-text-loop';
+import Portfolio from './portfolio.jpg'
 
 class App extends Component {
   // state = {
@@ -51,19 +52,9 @@ class App extends Component {
         </a>
 <br />
 <br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
+
+<img src={Portfolio} alt="altered-me" />;
+
 <br />
 <br />
 <br />
