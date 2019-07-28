@@ -41,6 +41,8 @@ class App extends Component {
           </h1>
         </header>
         <p>The Portfolio isn't ready yet :(</p>
+        <p>You can track progress for the site on&nbsp;
+        <a href="https://github.com/chrisford51/portfolio" target="_blank">Github!</a></p>
         <p>In the meantime, please see yourself over to Dawson Hosting and signup for some hosting and design services!</p>
         <a
           className="App-link"
