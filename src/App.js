@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 // import Languages from './languages';
 import TextLoop from 'react-text-loop';
 import Portfolio from './portfolio.jpg'
+import Carousel from './carousel';
 
 class App extends Component {
   // state = {
@@ -42,7 +43,7 @@ class App extends Component {
         </header>
         <p>The Portfolio isn't ready yet :(</p>
         <p>You can track progress for the site on&nbsp;
-        <a href="https://github.com/chrisford51/portfolio" target="_blank">Github!</a></p>
+        <a href="https://github.com/chrisford51/portfolio" target="_blank" rel="noopener noreferrer">Github!</a></p>
         <p>In the meantime, please see yourself over to Dawson Hosting and signup for some hosting and design services!</p>
         <a
           className="App-link"
@@ -59,6 +60,7 @@ class App extends Component {
 
 <br />
 <br />
+<Carousel />
 <br />
 
         <footer>
