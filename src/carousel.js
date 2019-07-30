@@ -14,7 +14,7 @@ class Carousel extends Component {
 
     setTimeout(() => {
       this.setState({
-        children: createChildren(20),
+        children: createChildren(3),
       })
     }, 100);
   }
@@ -54,7 +54,7 @@ class Carousel extends Component {
          leftChevron={'<'}
          outsideChevron={false}
        >
-         {children}
+       {children}
        </ItemsCarousel>
      );
    }

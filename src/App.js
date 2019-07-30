@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 // import Languages from './languages';
 import TextLoop from 'react-text-loop';
-import Portfolio from './portfolio.jpg'
+import Portfolio from './images/portfolio.jpg'
 import Carousel from './carousel';
 
 class App extends Component {
@@ -27,7 +27,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1>My name is Chris Ford and I like to code in <n/>
+          <h1>My name is Chris Ford and I like to code in&nbsp;
             <TextLoop>
               <span> HTML</span>
               <span> CSS</span>
@@ -56,7 +56,7 @@ class App extends Component {
 <br />
 <br />
 
-<img src={Portfolio} alt="altered-me" />;
+<img src={Portfolio} alt="altered-me" />
 
 <br />
 <br />
