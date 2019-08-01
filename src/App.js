@@ -5,23 +5,6 @@ import Portfolio from './images/portfolio.jpg'
 import Carousel from './carousel';
 
 class App extends Component {
-  // state = {
-  //   languages : [
-  //     { name: "HTML", id: 0 },
-  //     { name: "CSS", id: 1 },
-  //     { name: "PHP", id: 2 },
-  //     { name: "JavaScript", id: 3 },
-  //     { name: "React", id: 4 },
-  //     { name: "Python", id: 5 },
-  //     { name: "Java", id: 6 },
-  //     { name: "Node", id: 7 },
-  //     { name: "Express", id: 8 }
-  //   ]
-  // }
-  // handleChange() {
-  //   this.setState({language: this.state.id})
-  // }
-  // <Languages languages={this.state.languages}/></
 
   render() {
     return (
@@ -44,15 +27,8 @@ class App extends Component {
         <p>The Portfolio isn't ready yet :(</p>
         <p>You can track progress for the site on&nbsp;
         <a href="https://github.com/chrisford51/portfolio" target="_blank" rel="noopener noreferrer">Github!</a></p>
-        <p>In the meantime, please see yourself over to Dawson Hosting and signup for some hosting and design services!</p>
-        <a
-          className="App-link"
-          href="https://dawsonhosting.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Dawson Hosting
-        </a>
+        <p>In the meantime, please see yourself over to
+        <a className="App-link" href="https://dawsonhosting.com" target="_blank" rel="noopener noreferrer"> Dawson Hosting</a> and signup for some hosting and design services!</p>
 <br />
 <br />
 
