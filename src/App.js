@@ -17,7 +17,6 @@ class App extends Component {
               <span> JavaScript</span>
               <span> React</span>
               <span> Python</span>
-              <span> Java</span>
               <span> Node</span>
               <span> Express</span>
               <span> PHP</span>
